@@ -12,7 +12,7 @@ This is the file structure that will let the code run smoothly:
 RLGJ6-CHME0035
 │   README.md
 │   requirements.txt    
-│   RLGJ6-CHME0035-notebook.ipynb
+│   polyp-segmentation-notebook.ipynb
 └───toload
 │   │   BCEepoch60.pth
 │   │   JSepoch140.pth
