@@ -9,7 +9,7 @@ For this coursework I needed to access the GPU on my M1 Mac so I used a nightly 
 **Zip file structure**
 This is the file structure that will let the code run smoothly:
 ```
-RLGJ6-CHME0035
+polyp_segmentation
 │   README.md
 │   requirements.txt    
 │   polyp-segmentation-notebook.ipynb
