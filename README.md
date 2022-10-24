@@ -1,5 +1,8 @@
 ﻿
-# AMLH Coursework 2022 - RLGJ6
+# Segmenting polyps in colonoscopy images
+By Florence Townend - June 2022
+
+*Description*: Notebook for segmenting polyps in 2D colonoscopy images using a U-Net with modified loss functions. This work was completed as an assessment for Advanced Machine Learning in Healthcare at UCL for the MRes in AI-enabled Healthcare. The data used is Kvasir-SEG, consisting of images from colonoscopy scans and their corresponding segmentation masks. If you want to run this code, the location for this data in the folder structure is indicated below.
 
 For this coursework I needed to access the GPU on my M1 Mac so I used a nightly build of PyTorch, following these instructions (source: https://www.mrdbourke.com/pytorch-apple-silicon/)
 
@@ -10,7 +13,6 @@ RLGJ6-CHME0035
 │   README.md
 │   requirements.txt    
 │   RLGJ6-CHME0035-notebook.ipynb
-|   RLGJ6-CHME0035-report.pdf
 └───toload
 │   │   BCEepoch60.pth
 │   │   JSepoch140.pth
@@ -29,10 +31,9 @@ RLGJ6-CHME0035
 
 1. **Make the environment and install dependencies**
 
-Sorry, I don't have a non-M1 Mac to test that the Conda build works elsewhere.
 ```
-conda create --name RLGJ6-amlh-env python=3.8
-conda activate RLGJ6-amlh-env
+conda create --name polypseg python=3.8
+conda activate polypseg
 ```
 
 For an M1 Mac:
@@ -49,6 +50,6 @@ pip install ipywidgets
 jupyter nbextension enable --py widgetsnbextension
 jupyter notebook
 ```
-2. **Open the ```RLGJ6-notebook.ipynb``` file in jupyter notebook**
-3. **Change the kernel to ```RLGJ6-amlh-env```**
+2. **Open the ```polyp-segmentation-notebook.ipynb``` file in jupyter notebook**
+3. **Change the kernel to ```polypseg```**
 
