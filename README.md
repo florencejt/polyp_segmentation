@@ -14,16 +14,16 @@ polyp_segmentation
 │   requirements.txt    
 │   polyp-segmentation-notebook.ipynb
 └───toload
-│   │   BCEepoch60.pth
-│   │   JSepoch140.pth
-|   |   Comboepoch100.pth
-|	|	random_search_100_search_output_20epochs_IoULoss.npy
-|	|	base_logs.npy
-|	|	jaccard_logs.npy
-|	|	combo_logs.npy
-|	|	base_dict.npy
-|	|	jaccard_dict.npy
-|	|	combo_dict.npy
+|	└───BCEepoch60.pth
+|	└───JSepoch140.pth
+|	└───Comboepoch100.pth
+|   random_search_100_search_output_20epochs_IoULoss.npy
+|   base_logs.npy
+|   jaccard_logs.npy
+|   combo_logs.npy
+|   base_dict.npy
+|   jaccard_dict.npy
+|   combo_dict.npy
 └───Kvasir-SEG
 |	└───images
 |	└───masks
